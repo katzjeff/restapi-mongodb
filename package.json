@@ -1,19 +1,20 @@
 {
   "name": "restapi",
   "version": "1.0.0",
-  "description": "RESTFul API",
-  "main": "server.js",
+  "description": "RESTAPI with CRUD functionality and linked to MongoDB",
+  "main": "app.js",
   "scripts": {
-    "start": "node backend/server.js",
-    "server": "nodemon backend/server.js"
+    "start": "node backend/app.js",
+    "server": "nodemon backend/app.js"
   },
   "keywords": [
+    "MongoDB",
     "RESTAPI",
-    "Express",
-    "Mongoose"
+    "ExpressJS",
+    "Node"
   ],
   "author": "aligulagk",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "colors": "^1.4.0",
     "dotenv": "^16.0.3",
